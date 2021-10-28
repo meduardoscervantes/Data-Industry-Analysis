@@ -1,0 +1,17 @@
+
+
+
+Link List
+
+https://developer.indeed.com/
+https://www.kaggle.com/elroyggj/indeed-dataset-data-scientistanalystengineer?select=indeed_job_dataset.csv
+https://github.com/indeedlabs/indeed-python
+https://www.programmableweb.com/news/top-10-jobs-apis-2021/brief/2021/06/30
+https://www.kaggle.com/promptcloud/usa-indeed-job-listing
+https://www.kaggle.com/sl6149/data-scientist-job-market-in-the-us
+https://developer.dol.gov/
+https://rapidapi.com/lattice-data-lattice-data-default/api/job-search4/
+https://www.kaggle.com/andrewmvd/data-scientist-jobs
+https://www.kaggle.com/samruddhim/analysis-of-data-scientist-jobs/data
+https://www.kaggle.com/elroyggj/indeed-dataset-data-scientistanalystengineer?select=indeed_job_dataset.csv
+https://www.kaggle.com/mtszkw/landing-a-data-science-job/notebook
