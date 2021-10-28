@@ -1,29 +1,96 @@
 
 
 
-Link List
+Link List - Sources
+-----------------------------------------------------------------------------------------------------
 
+Link
 https://developer.indeed.com/
+
+--------------------------------------------------------------------------------------------------------------
+
+Indeed Job Dataset CSV (19.02 MB)
+- Dataset Description
+- Job Title, Linkk, Queried Salary, Job Type, Skill, # of Skillss, CompanyName, # Company Reviews, Review Rating, Date since posted, Job Description, Location, Company Revenue, # Employees, Company Industry
+- Top 10 Job Skills: python, sql, machine learning, r, Hadoop, tableau, sas, spark, java, others
+- Top 10 overall states: CA, NY, VA, TX, MA, IL, WA, MD, DC, NC, Other states
+- Top 5 overall Industries: Consulting and Business Services, Internet and Software, Banks and Financial Services, Health Care, Insurance, other_industries
+
+Link:
 https://www.kaggle.com/elroyggj/indeed-dataset-data-scientistanalystengineer?select=indeed_job_dataset.csv
+
+-------------------------------------------------------------------------------------------------------------
+
+
+
+Link:
 https://github.com/indeedlabs/indeed-python
+
+-------------------------------------------------------------------------------------------------------------
+
+Link
 https://www.programmableweb.com/news/top-10-jobs-apis-2021/brief/2021/06/30
+
+-------------------------------------------------------------------------------------------------------------
+
+Link
 https://www.kaggle.com/promptcloud/usa-indeed-job-listing
+
+-------------------------------------------------------------------------------------------------------------
+
+Link
 https://www.kaggle.com/sl6149/data-scientist-job-market-in-the-us
+
+-------------------------------------------------------------------------------------------------------------
+
+Link
 https://developer.dol.gov/
+
+-------------------------------------------------------------------------------------------------------------
+
+Link
 https://rapidapi.com/lattice-data-lattice-data-default/api/job-search4/
+
+-------------------------------------------------------------------------------------------------------------
+
+Link
 https://www.kaggle.com/andrewmvd/data-scientist-jobs
+
+-------------------------------------------------------------------------------------------------------------
+
+Link
 https://www.kaggle.com/samruddhim/analysis-of-data-scientist-jobs/data
+
+-------------------------------------------------------------------------------------------------------------
+
+Link
 https://www.kaggle.com/elroyggj/indeed-dataset-data-scientistanalystengineer?select=indeed_job_dataset.csv
+
+-------------------------------------------------------------------------------------------------------------
+
+Link
 https://www.kaggle.com/mtszkw/landing-a-data-science-job/notebook
 
+-------------------------------------------------------------------------------------------------------------
 
 Zippa Career ? Software Engineer Demographics & Statistics in the US
+
+Link
 https://www.zippia.com/software-engineer-jobs/demographics/
 
+-------------------------------------------------------------------------------------------------------------
 
 United States Census Bureau ? Available APIs
+
+Link
 https://www.census.gov/data/developers/data-sets.html
 
+-------------------------------------------------------------------------------------------------------------
 
 7+ Million Company Dataset ? People Data Labs 2019 Global Company Dataset
+
+Link
 https://www.kaggle.com/peopledatalabssf/free-7-million-company-dataset
+
+-------------------------------------------------------------------------------------------------------------
+
