@@ -15,3 +15,15 @@ https://www.kaggle.com/andrewmvd/data-scientist-jobs
 https://www.kaggle.com/samruddhim/analysis-of-data-scientist-jobs/data
 https://www.kaggle.com/elroyggj/indeed-dataset-data-scientistanalystengineer?select=indeed_job_dataset.csv
 https://www.kaggle.com/mtszkw/landing-a-data-science-job/notebook
+
+
+Zippa Career ? Software Engineer Demographics & Statistics in the US
+https://www.zippia.com/software-engineer-jobs/demographics/
+
+
+United States Census Bureau ? Available APIs
+https://www.census.gov/data/developers/data-sets.html
+
+
+7+ Million Company Dataset ? People Data Labs 2019 Global Company Dataset
+https://www.kaggle.com/peopledatalabssf/free-7-million-company-dataset
