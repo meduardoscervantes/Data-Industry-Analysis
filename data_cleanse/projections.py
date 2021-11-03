@@ -15,9 +15,9 @@ ocupations = [
     '51-9161',
     '51-9162'
 ]
-if not os.path.exists('resources/masterbook_breakdown'):
+if not os.path.exists('../resources/masterbook_breakdown'):
     counter = 0
-    for file in os.listdir('resources/masterbook'):
+    for file in os.listdir('../resources/masterbook'):
         df = pd.read_csv(f'resources/masterbook/{file}')
         if counter == 0:
             pass
@@ -35,14 +35,14 @@ if not os.path.exists('resources/masterbook_breakdown'):
                 (df[df.columns[1]] == ocupations[9]) |
                 (df[df.columns[1]] == ocupations[10])
             ]
-            if not os.path.exists('resources/masterbook_breakdown/'):
-                os.mkdir('resources/masterbook_breakdown/')
+            if not os.path.exists('../resources/masterbook_breakdown/'):
+                os.mkdir('../resources/masterbook_breakdown/')
             if not len(occ_df) == 0:
                 occ_df.to_csv(f'resources/masterbook_breakdown/{file}', index=False)
         counter += 1
-if not os.path.exists('resources/growing_occupation_breakdown'):
+if not os.path.exists('../resources/growing_occupation_breakdown'):
     counter = 0
-    for file in os.listdir('resources/growing_occupation'):
+    for file in os.listdir('../resources/growing_occupation'):
         df = pd.read_csv(f'resources/growing_occupation/{file}')
         if counter == 0:
             pass
@@ -60,8 +60,8 @@ if not os.path.exists('resources/growing_occupation_breakdown'):
                 (df[df.columns[1]] == ocupations[9]) |
                 (df[df.columns[1]] == ocupations[10])
             ]
-            if not os.path.exists('resources/growing_occupation_breakdown/'):
-                os.mkdir('resources/growing_occupation_breakdown/')
+            if not os.path.exists('../resources/growing_occupation_breakdown/'):
+                os.mkdir('../resources/growing_occupation_breakdown/')
             if not len(occ_df) == 0:
                 occ_df.to_csv(f'resources/growing_occupation_breakdown/{file}', index=False)
         counter += 1
