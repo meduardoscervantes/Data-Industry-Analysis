@@ -15,7 +15,7 @@ ocupations = [
     '51-9161',
     '51-9162'
 ]
-if not os.path.exists('../Resources/masterbook_breakdown'):
+if not os.path.exists('../Resources/manuel/masterbook_breakdown'):
     counter = 0
     for file in os.listdir('../Resources/masterbook'):
         df = pd.read_csv(f'Resources/masterbook/{file}')
@@ -35,12 +35,12 @@ if not os.path.exists('../Resources/masterbook_breakdown'):
                 (df[df.columns[1]] == ocupations[9]) |
                 (df[df.columns[1]] == ocupations[10])
             ]
-            if not os.path.exists('../Resources/masterbook_breakdown/'):
-                os.mkdir('../Resources/masterbook_breakdown/')
+            if not os.path.exists('../Resources/manuel/masterbook_breakdown/'):
+                os.mkdir('../Resources/manuel/masterbook_breakdown/')
             if not len(occ_df) == 0:
                 occ_df.to_csv(f'Resources/masterbook_breakdown/{file}', index=False)
         counter += 1
-if not os.path.exists('../Resources/growing_occupation_breakdown'):
+if not os.path.exists('../Resources/manuel/growing_occupation_breakdown'):
     counter = 0
     for file in os.listdir('../Resources/growing_occupation'):
         df = pd.read_csv(f'Resources/growing_occupation/{file}')
@@ -60,8 +60,8 @@ if not os.path.exists('../Resources/growing_occupation_breakdown'):
                 (df[df.columns[1]] == ocupations[9]) |
                 (df[df.columns[1]] == ocupations[10])
             ]
-            if not os.path.exists('../Resources/growing_occupation_breakdown/'):
-                os.mkdir('../Resources/growing_occupation_breakdown/')
+            if not os.path.exists('../Resources/manuel/growing_occupation_breakdown/'):
+                os.mkdir('../Resources/manuel/growing_occupation_breakdown/')
             if not len(occ_df) == 0:
                 occ_df.to_csv(f'Resources/growing_occupation_breakdown/{file}', index=False)
         counter += 1

@@ -4,8 +4,8 @@ from config import google_places_key
 import pandas as pd
 import os
 
-if not os.path.exists('../Resources/map_information'):
-    data = pd.read_csv('../Resources/glassdoor_data_scientist_jobs.csv')
+if not os.path.exists('../Resources/manuel/map_information'):
+    data = pd.read_csv('../Resources/manuel/glassdoor_data_scientist_jobs.csv')
     sorted_cities = data["Location"].unique()
 
     url = 'https://maps.googleapis.com/maps/api/geocode/json?address='
@@ -28,5 +28,5 @@ if not os.path.exists('../Resources/map_information'):
         "lat": lat
     })
     map_info.to_csv("Resources/map_information", index=False)
-data = pd.read_csv('../Resources/map_information')
+data = pd.read_csv('../Resources/manuel/map_information')
 
