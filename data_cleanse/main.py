@@ -3,13 +3,13 @@ import matplotlib.pyplot as plt
 import os
 
 masterbook_dfs = [
-    pd.read_csv(f'resources/masterbook_breakdown/{file}')
-    for file in os.listdir('../resources/masterbook_breakdown')
+    pd.read_csv(f'Resources/masterbook_breakdown/{file}')
+    for file in os.listdir('../Resources/masterbook_breakdown')
 ]
 
 growing_occ_df = [
-    pd.read_csv(f'resources/growing_occupation_breakdown/{file}')
-    for file in os.listdir('../resources/growing_occupation_breakdown')
+    pd.read_csv(f'Resources/growing_occupation_breakdown/{file}')
+    for file in os.listdir('../Resources/growing_occupation_breakdown')
 ]
 
 # Read the .csv with Employment Information
@@ -24,8 +24,8 @@ for x in job_stats_df.columns:
         columns.append(x)
 job_stats_df.columns = columns
 
-if not os.path.exists('../resources/graphs/'):
-    os.mkdir('../resources/graphs/')
+if not os.path.exists('../Resources/graphs/'):
+    os.mkdir('../Resources/graphs/')
     counter = 0
     for x in range(len(job_stats_df.columns)):
         for y in range(len(job_stats_df.columns)):
@@ -38,7 +38,7 @@ if not os.path.exists('../resources/graphs/'):
             plt.ylabel(job_stats_df.columns[y])
             plt.title(title)
             plt.xticks(rotation=90)
-            plt.savefig(f'resources/graphs/{title}.png')
+            plt.savefig(f'Resources/graphs/{title}.png')
             plt.close(counter)
             counter += 1
 
@@ -46,5 +46,5 @@ if not os.path.exists('../resources/graphs/'):
 # plt.bar(job_stats_df[job_stats_df.columns[0]], job_stats_df[job_stats_df.columns[4]])
 # plt.bar(job_stats_df[job_stats_df.columns[0]], job_stats_df[job_stats_df.columns[3]])
 # plt.xticks(rotation=90)
-# plt.savefig('resources/graphs/current_vs_expected_growth.png')
+# plt.savefig('Resources/graphs/current_vs_expected_growth.png')
 # plt.show()

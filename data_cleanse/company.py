@@ -7,7 +7,7 @@ pd.set_option('display.max_columns', None)
 # Then sorted them into US based technology companies #
 # Finally created a .csv file with those companies    #
 #######################################################
-# us_df = pd.read_csv("resources/us_companies.csv")
+# us_df = pd.read_csv("Resources/us_companies.csv")
 # industries = ["information technology and services", "computer software", "telecommunications", "computer networking"]
 # df = us_df.loc[
 #     (us_df["industry"] == industries[0]) |
@@ -15,4 +15,4 @@ pd.set_option('display.max_columns', None)
 #     (us_df["industry"] == industries[2]) |
 #     (us_df["industry"] == industries[3])
 # ]
-# df.to_csv("resources/us_tech_companies.csv", index=False)
+# df.to_csv("Resources/us_tech_companies.csv", index=False)
