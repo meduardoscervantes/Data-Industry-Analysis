@@ -4,12 +4,12 @@ import os
 
 masterbook_dfs = [
     pd.read_csv(f'resources/masterbook_breakdown/{file}')
-    for file in os.listdir('resources/masterbook_breakdown')
+    for file in os.listdir('../resources/masterbook_breakdown')
 ]
 
 growing_occ_df = [
     pd.read_csv(f'resources/growing_occupation_breakdown/{file}')
-    for file in os.listdir('resources/growing_occupation_breakdown')
+    for file in os.listdir('../resources/growing_occupation_breakdown')
 ]
 
 # Read the .csv with Employment Information
@@ -24,8 +24,8 @@ for x in job_stats_df.columns:
         columns.append(x)
 job_stats_df.columns = columns
 
-if not os.path.exists('resources/graphs/'):
-    os.mkdir('resources/graphs/')
+if not os.path.exists('../resources/graphs/'):
+    os.mkdir('../resources/graphs/')
     counter = 0
     for x in range(len(job_stats_df.columns)):
         for y in range(len(job_stats_df.columns)):
